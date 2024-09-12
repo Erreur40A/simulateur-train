@@ -1,6 +1,3 @@
-Jibril DOUZI 12100516 GR2
-Ibrahim KHAN 11814809 GR2
-
 Les ajouts de TrainV2:
 
 -Ajout d'une explosion lors d'une colosion entre 2 trains
