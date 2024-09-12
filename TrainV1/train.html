@@ -1,0 +1,41 @@
+<!--
+	Train
+	@author       : Étienne André
+	Created       : 2023/12/11
+	Last modified : 2024/03/28
+-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Simulateur de trains</title>
+		<link rel="stylesheet" href="css/train.css">
+	</head>
+
+	<body>
+		<h1>Simulateur de trains</h1>
+
+		<canvas id="simulateur" width="1050" height="600">
+			Simulateur ferroviaire (votre navigateur ne prend pas en charge canvas)
+		</canvas>
+
+		<div id="boutons">
+		<button type="button" id="bouton_foret">F</button>
+		<button type="button" id="bouton_eau">E</button>
+		<button type="button" id="bouton_rail_horizontal">=</button>
+		<button type="button" id="bouton_rail_vertical">||</button>
+		<button type="button" id="bouton_rail_droite_vers_haut"><sup>/</sup></button>
+		<button type="button" id="bouton_rail_haut_vers_droite"><sub>/</sub></button>
+		<button type="button" id="bouton_rail_droite_vers_bas"><sub>\</sub></button>
+		<button type="button" id="bouton_rail_bas_vers_droite"><sup>\</sup></button>
+		<button type="button" id="bouton_train_1">L</button>
+		<button type="button" id="bouton_train_2">WL</button>
+		<button type="button" id="bouton_train_4">WWWL</button>
+		<button type="button" id="bouton_train_6">WWWWWL</button>
+
+		<button type="button" id="bouton_pause">Pause</button>
+		</div>
+
+		<script src="js/train.js"></script>
+	</body>
+</html>

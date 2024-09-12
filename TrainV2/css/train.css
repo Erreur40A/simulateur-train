@@ -1,0 +1,155 @@
+/************************************************************/
+/**
+ * Université Sorbonne Paris Nord, Programmation Web
+ * Auteurs                       : Étienne André
+ * Création                      : 2023/12/11
+ * Dernière modification         : 2023/12/11
+ */
+/************************************************************/
+
+h1 {
+    font-family: monospace;
+    font-size: 3em;
+    /*pour que le titre soit centrer*/
+    text-align: center;
+    margin: auto;
+}
+
+#canvas {
+    text-align: center;
+    margin: auto;
+}
+
+h1 > img {
+    padding: 0;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    font-family: monospace;
+    height: 3em;
+    width: 3em;
+}
+
+#boutons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1px;
+}
+
+#boutons button {
+    background-size: contain;
+    background-position: center;
+    border: none;
+}
+
+#boutons div {
+    margin: 0 2em 0 2em;
+    padding: 0;
+    display: grid;
+    align-self: baseline;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+}
+
+div > h2 {
+    grid-column: 1 / 3;
+}
+
+/*on modifie le conteneur #train car les images n'ont pas une taille uniforme*/
+#boutons #train {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+}
+
+#boutons #train h2 {
+    grid-column: 1 / 4;
+}
+
+#pause button {
+    grid-column: 1 / 3;
+}
+
+#bouton_foret {
+    background-image: url("../images/foret.png");
+}
+
+#bouton_eau {
+    background-image: url("../images/eau.png");
+}
+
+#bouton_rail_horizontal {
+    background-image: url("../images/rail-horizontal.png");
+}
+
+#bouton_rail_vertical {
+    background-image: url("../images/rail-vertical.png");
+}
+
+#bouton_rail_droite_vers_haut {
+    background-image: url("../images/rail-droite-vers-haut.png");
+}
+
+#bouton_rail_haut_vers_droite {
+    background-image: url("../images/rail-haut-vers-droite.png");
+}
+
+#bouton_rail_droite_vers_bas {
+    background-image: url("../images/rail-droite-vers-bas.png");
+}
+
+#bouton_rail_bas_vers_droite {
+    background-image: url("../images/rail-bas-vers-droite.png");
+}
+
+#bouton_train_1 {
+    background-image: url("../images/locomotive.png");
+    background-repeat: no-repeat; /*si on ne pas pas cette règle css le bouton sera remplis de train*/
+    grid-column: 3;
+}
+
+#bouton_train_2 {
+    background-image: url("../images/WL.png");
+    background-repeat: no-repeat;
+    grid-row: 3;
+}
+
+#bouton_train_4 {
+    background-image: url("../images/WWWL.png");
+    background-repeat: no-repeat;
+    justify-self: center;
+    grid-column: 1 / 3;
+    grid-row: 3;
+    width: 6em;
+}
+
+#bouton_train_6 {
+    background-image: url("../images/WWWWWL.png");
+    background-repeat: no-repeat;
+    grid-column: 1 / 4;
+    width: 9em;
+}
+
+#bouton_TGV {
+    background-image: url("../images/TGV.png");
+    background-repeat: no-repeat;
+    grid-row: 2;
+}
+
+#bouton_RER_B {
+    background-image: url("../images/rer_b.png");
+    background-repeat: no-repeat;
+    grid-row: 2;
+}
+
+#bouton_pause {
+    background-image: url("../images/pause.png");
+}
