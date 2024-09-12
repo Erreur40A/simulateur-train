@@ -3,7 +3,7 @@ Contrainte du projet:
 Un seul fichier JavaScript pour _TrainV1_  
 Ne pas modifier les fichier HTML et CSS de _TrainV1_
 _TrainV1_ doit obligatoirement suivre les consignes du professeur  
-Un seul ou plusieurs fichiers JavaScript pour _TrainV2_ qui est une partie libre de toute contrainte  
+Un seul ou plusieurs fichiers JavaScript pour _TrainV2_ qui est une partie libre de toutes contraintes  
   
 Les ajouts de TrainV2:
   
